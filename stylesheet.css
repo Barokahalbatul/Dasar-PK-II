@@ -8,3 +8,49 @@ p{
   font-size:20px;
   font-family:"Lucinta Grande";
 }
+li{
+  color: aquamarine
+}
+
+.selected{
+  color: bisque
+}
+
+ li{ 
+   list-style:none;
+   float: left;
+   padding: 33px 20px;
+ }
+
+.header {
+  background-color: lightblue;
+  height :600px;
+}
+
+.header-logo {
+  font-size: 36px; padding: 20px 40px;
+  float: left;
+}
+
+.main {
+  background-color: lightblue;
+  height: 600px;
+}
+
+.footer{
+  background-color: slategray;
+  height: 270px;
+}
+   
+  
+ <div class="contact-form">
+   <h3 class="section-title">Hubungu kami</h3>
+   <p>Email(Wajib Diisi)</p>
+   <input>
+   <p>Pesan(Wajib Diisi)</p>
+   <textarea></textarea>
+   <p>Bidang (Wajib Diisi)</p>
+   <input class="contact-submit" type="submit" value="Kirim">
+ </div>
+</div>
+
